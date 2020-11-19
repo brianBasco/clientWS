@@ -1,0 +1,6 @@
+Commande à taper dans le terminal pour générer le proxy Client du Webservice
+nom du webservice : BanqueService
+commande wsimport de java8
+-s . => génère les sources dans le répertoire courant
+
+/home/bast/java8/bin/wsimport -s . http://localhost:8686/BanqueService?wsdl
